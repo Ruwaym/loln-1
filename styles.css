@@ -1,0 +1,117 @@
+#header{
+    background-color: blanchedalmond;
+    height: 80px;
+    top: 0;
+}
+
+#header h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+    padding-top: 12px;
+}
+
+#header i{
+    color: black;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+.index-body{
+    background: url(images/gbg.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.index-menu{
+    padding-top: 60px;
+}
+.index-menu-item{
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: darkseagreen;
+    display: block;
+    
+    border: 3px ridge #ffffff
+}
+
+.index-menu-item h2{
+    color: cornsilk;
+    margin-top: 13px;
+        
+}
+/*===========================index-menu-item=================*/
+.overview-menu{
+    background-color: darkgreen;
+    display: block;
+    
+    border: 3px ridge #ffffff;
+    margin-top: 50px;
+}
+
+.overview-menu h2{
+    color: cornsilk;
+    text-align: center;
+    font-size: 30px;
+}
+
+.overview-menu ul{
+    list-style: none;
+    margin-left: 600px;
+    margin-right: auto;
+    color: cornsilk;
+    font-size: 20px;
+}
+
+.overview-menu ol{
+    margin-left: 600px;
+    margin-right: auto;
+    color: cornsilk;
+    font-size: 20px;
+}
+
+.overview-menu table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overview-menu tr{
+    color: cornsilk;
+    font-size: 20px;
+}
+.overview-menu i{
+    color: crimson;
+}
+.note-tag{
+    color: cornsilk;
+    text-decoration: none;
+}
+/*===========================notes-menu-item=================*/
+.notes-menu{
+    background-color: darkgreen;
+    display: block;
+    
+    border: 3px ridge #ffffff;
+    margin-top: 50px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.notes-menu h3{
+    color: cornsilk;
+    text-align: center;
+    font-size: 30px;
+}
+
+.notes-menu p{
+    text-align: center;
+    color: cornsilk;
+    font-size: 20px;
+}
